@@ -1,0 +1,24 @@
+<html>
+<head>
+
+</head>
+
+<body>
+	<h1>INDEX</h1>
+<UL>
+
+	<LI>Usuaris</LI>
+		<UL> 
+			<LI>Crear</LI> 
+			<LI>Modificar</LI> 
+			<LI>Eliminar</LI> <br>
+		</UL> 
+	<LI>Configuracio</LI>
+		<UL> 
+			<LI>Canviar paraula de pas</LI> 
+			<LI>Sortir</LI> 
+		</UL> 
+
+</UL>
+</body>
+</html>
