@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+ 
+<!-- jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>  
+
+<!-- DataTables -->
+<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+<script type="text/javascript" src="http://twitter.github.io/bootstrap/assets/js/bootstrap-transition.js"></script>
+<script type="text/javascript" src="http://twitter.github.io/bootstrap/assets/js/bootstrap-collapse.js"></script>
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+$('#users_table').dataTable();
+} );
+</script>
+
+
+	
+</head>
+<body>
+	<?php include('navbar_top.txt'); ?>
+<br><br><br>
+<h3 align=center>Usuaris</h3>
+<br>
+
+<div align="right">
+  <a href='crear'>Crear Usuari&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+</div> 
+
+<table cellpadding="0" cellspacing="0" border="1" id="users_table" class="table table-striped" width="100%">
+<thead bgcolor=#819FF7>
+<tr>
+<th>Usuari</th>
+<th>Adre&ccedil;a</th>
+<th>Telefon</th>
+<th>DNI</th>
+<th>ID</th>
+
+</tr>
+</thead>
+<tbody align=center>
+<tr>
+<td>Alumne 1</td>
+<td>Adre&ccedil;a 1</td>
+<td>Telefon 1</td>
+<td>DNI 1</td>
+<td>01</td>
+
+<td><a href='modificar/01'><span style="color:green">Modifica</span></a><a> | </a><a href='eliminar'><span style="color:red">Elimina</span></a></td>
+</tr>
+<tr>
+<td>Alumne 2</td>
+<td>Adre&ccedil;a 2</td>
+<td>Telefon 2</td>
+<td>DNI 2</td>
+<td>01</td>
+
+<td><a href='modificar/01'><span style="color:green">Modifica</span></a><a> | </a><a href='eliminar'><span style="color:red">Elimina</span></a></td>
+</tr>
+<tr>
+<td>Alumne 3</td>
+<td>Adre&ccedil;a 3</td>
+<td>Telefon 3</td>
+<td>DNI 3</td>
+<td>01</td>
+
+<td><a href='modificar/01'><span style="color:green">Modifica</span></a><a> | </a><a href='eliminar'><span style="color:red">Elimina</span></a></td>
+</tr>
+<tr>
+<td>Alumne 4</td>
+<td>Adre&ccedil;a 4</td>
+<td>Telefon 4</td>
+<td>DNI 4</td>
+<td>01</td>
+
+<td><a href='modificar/01'><span style="color:green" size="3">Modifica</span></a><a> | </a><a href='eliminar'><span style="color:red">Elimina</span></a></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
